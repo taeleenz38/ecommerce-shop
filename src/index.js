@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import shop from './pages/shop/shop';
-import cart from './pages/cart/cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
