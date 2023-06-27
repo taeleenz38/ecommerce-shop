@@ -1,5 +1,5 @@
 import product1 from "./assets/products/1.jpg";
-import product2 from "./assets/products/2.png";
+import product2 from "./assets/products/2.jpg";
 import product3 from "./assets/products/3.jpg";
 import product4 from "./assets/products/4.png";
 import product5 from "./assets/products/5.jpg";
