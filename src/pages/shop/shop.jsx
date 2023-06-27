@@ -1,5 +1,7 @@
 import React from 'react'
 import { PRODUCTS } from "../../products";
+import Product from "./product";
+import './shop.css';
 
 function Shop() {
     return (
@@ -8,12 +10,12 @@ function Shop() {
                 <h1>0xTech Shop</h1>
             </div>
             <div className='products'>
-                {PRODUCTS.map((product) => {
-                    <Product />
-                })}
+                {PRODUCTS.map((product) => (
+                    <Product data={product} />
+                ))}
             </div>
         </div>
     )
 }
 
-export default shop
+export default Shop
