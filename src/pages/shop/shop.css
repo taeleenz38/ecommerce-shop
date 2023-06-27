@@ -1,0 +1,33 @@
+.shopTitle {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 35px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.product img {
+    width: 75%;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.product img:hover {
+    transform:translateY(-5px);
+    transition-duration: 200ms;
+}
+
+.description {
+    text-align: center;
+}

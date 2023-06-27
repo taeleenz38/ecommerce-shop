@@ -1,10 +1,10 @@
 import product1 from "./assets/products/1.jpg";
 import product2 from "./assets/products/2.png";
 import product3 from "./assets/products/3.jpg";
-import product4 from "./assets/products/4.jpg";
+import product4 from "./assets/products/4.png";
 import product5 from "./assets/products/5.jpg";
 import product6 from "./assets/products/6.jpg";
-import product7 from "./assets/products/7.png";
+import product7 from "./assets/products/7.jpg";
 import product8 from "./assets/products/8.jpg";
 
 
@@ -30,8 +30,8 @@ export const PRODUCTS = [
   },
   {
     id: 4,
-    productName: "AMD Ryzen 7 5700X",
-    price: 529.0,
+    productName: "Intel i7 12700",
+    price: 429.0,
     productImage: product4,
   },
   {
