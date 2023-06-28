@@ -49,4 +49,5 @@
     background-color: black;
     color: white;
     transition-duration: 125ms;
+    cursor: pointer;
 }
