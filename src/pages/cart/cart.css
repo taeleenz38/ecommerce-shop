@@ -1,3 +1,9 @@
+.cart h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
 .cartItem {
     width: 50%;
     margin: 0 auto;
