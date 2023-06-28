@@ -1,0 +1,23 @@
+.cartItem {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cartItem img {
+    width: 200px;
+    margin-right: 2rem;
+}
+
+.cartDescription {
+    height: 50%;
+    align-self: center;
+}
+
+.cartDescription p {
+    font-size: 1.5rem;
+}
