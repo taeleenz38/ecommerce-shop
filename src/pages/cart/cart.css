@@ -1,3 +1,7 @@
+.cart {
+    margin-bottom: 2rem;
+}
+
 .cart h1 {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -26,4 +30,81 @@
 
 .cartDescription p {
     font-size: 1.5rem;
+}
+
+.checkout {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.checkout p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.checkout button {
+    width: 150px;
+    background-color: white;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    align-self: center;
+}
+
+.checkout button:hover {
+    transform: scale(1.01);
+    background-color: black;
+    color: white;
+    transition-duration: 125ms;
+    cursor: pointer;
+}
+
+.cartBtnContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 320px;
+    justify-content: space-around;
+}
+
+.countHandler .btn1 {
+    background-color: white;
+    font-weight: 700;
+    border: 2px solid black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    align-self: center;
+    font-weight: 700;
+}
+
+.countHandler .btn2 {
+    background-color: white;
+    font-weight: 700;
+    border: 2px solid black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+    vertical-align: center;
+    align-self: center;
+    font-weight: 700;
+}
+
+.countHandler button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 125ms;
+    cursor: pointer;
+}
+
+.countHandler input {
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 1.4rem;
+    font-weight: 700;
+    text-align: center;
 }
